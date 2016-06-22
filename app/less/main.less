@@ -647,7 +647,6 @@ svg .skills {
 @media only screen and (max-width : 1200px) {
 	.header_BG .nav .topnav li{
 		margin-right: 60px;
-		
 	}
 
 	.header_BG .header_inner_table .nav .topnav li:last-child {
@@ -667,14 +666,6 @@ svg .skills {
 
 	.header_BG .title_wrapper .main_title {
 		font-size: 62px;
-	}
-
-	/* .header_BG .title_wrapper .sub_title {
-		font-size: 18px;
-	} */
-
-	.mobile_menu_holder{
-		//display: block;
 	}
 
 	ul.topnav {
@@ -753,7 +744,9 @@ svg .skills {
 		float: none;
 	}
 
-
+	#preloader{
+		display: none;
+	}
 
 	.section_padding {
 		padding-top: 50px;
@@ -768,16 +761,33 @@ svg .skills {
 	.header_BG .title_wrapper {
 		padding-top: 60px;
 	}
+
 	.skills_mobile_holder{
 		text-align: left;
 	}
 }
 
+
+@media only screen and (max-width : 670px) {
+	.header_BG .title_wrapper .main_title {
+		font-size: 35px;
+	}
+}
+
+
+
 /* Extra Small Devices, Phones - adaptive styles bofore 480px */
 @media only screen and (max-width : 480px) {
+
+	.header_BG{
+		overflow-x: hidden;
+		height: 500px;
+	}
+
 	.skills_mobile_holder{
 		text-align: left;
 	}
+
 	.section_title, .section_title h2 {
     	font-size: 26px;
     }
@@ -786,15 +796,46 @@ svg .skills {
 		margin: 0 10px;
     	font-size: 24px;
     }
-    .section_contacs p.margin_bottom {
+    .section_contacts p.margin_bottom {
     	margin-bottom: 15px;
     }
+
+	.header_BG .title_wrapper .main_title{
+		top: 40%;
+		margin-bottom: 0;
+	}
+	
+	.header_BG .nav .logo {
+		font-size: 15px;
+	}
+
+	a.mouse_scroll{
+		display: none;
+	}
+
+	.portfolio_padding, .section_padding{
+		padding-left: 0;
+		padding-right: 0;
+		overflow: hidden;
+	}
+
+	.bottom_margin_mobile_portfolio{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+
+	.section_contacts .contacts_title{
+		font-size: 25px;
+	}
+
+	#preloader{
+		display: none;
+	}
+
 }
 
 /* Custom, iPhone Retina - adaptive styles bofore 320px */
-@media only screen and (max-width : 320px) {
-	
-}
 
 
 @media only screen and (min-height: 630px) {
