@@ -1,0 +1,126 @@
+/* ....................................................
+
+	HEADER ON WORKS PAGES
+
+....................................................... */
+
+.works_desc__header {
+	color: #FFF;
+	background-color: #217ABE;
+	font-family: 'Raleway';
+	padding: 40px 60px;
+	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.works_desc__logo {
+	font-weight: 700;
+	float: left;
+}
+
+		.works_desc__name {
+			font-size: 22px;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+			margin-bottom: 5px;
+		}
+
+		.works_desc__headline {
+			font-size: 18px;
+		}
+
+
+.works_desc__links {
+	float: right;
+}
+
+		a.works_desc__back_link {
+			display: inline-block;
+			font-size: 16px;
+			color: #fff;
+			font-weight: 600;
+			-webkit-border-radius: 50px;
+			        border-radius: 50px;
+			border: 2px solid #fff;
+			padding: 16px 20px 16px 40px;
+			text-decoration: none;
+			
+			position: relative;
+
+			-webkit-transition: all 0.4s ease;
+			   -moz-transition: all 0.4s ease;
+			    -ms-transition: all 0.4s ease;
+			     -o-transition: all 0.4s ease;
+			        transition: all 0.4s ease;
+		}
+
+		a.works_desc__back_link:hover {
+			text-decoration: none;
+			background-color: #fff;
+			color: #0070bb;
+		}
+
+		a.works_desc__back_link svg {
+			position: absolute;
+			left: 20px;
+			top: 17px;
+		}
+
+		.back_link__arrow{
+			fill: #fff;
+			fill-rule: evenodd;
+			
+			-webkit-transition: all 0.4s ease;
+			   -moz-transition: all 0.4s ease;
+			    -ms-transition: all 0.4s ease;
+			     -o-transition: all 0.4s ease;
+			        transition: all 0.4s ease;
+			
+		}
+
+		a.works_desc__back_link:hover .back_link__arrow {
+			fill: #0070bb;
+		}
+
+
+
+		a.works_desc__git_link {
+			display: inline-block;
+			font-size: 16px;
+			color: #fff;
+			font-weight: 600;
+			-webkit-border-radius: 50px;
+			        border-radius: 50px;
+			border: 2px solid #fff;
+			padding: 16px 20px 16px 20px;
+			text-decoration: none;
+			margin-left: 40px;
+			
+			position: relative;
+
+			-webkit-transition: all 0.4s ease;
+			   -moz-transition: all 0.4s ease;
+			    -ms-transition: all 0.4s ease;
+			     -o-transition: all 0.4s ease;
+			        transition: all 0.4s ease;
+		}
+
+		a.works_desc__git_link:hover {
+			text-decoration: none;
+			background-color: #fff;
+			color: #0070bb;
+		}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
