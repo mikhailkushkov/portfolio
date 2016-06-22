@@ -1,0 +1,58 @@
+.page_header {
+	width: 100%;
+	height: auto;
+	padding: 130px 0 170px;
+	.bg-image ( #014482, url('../img/bg.jpg'), no-repeat, 0px, 0px);
+	.cover;
+	position: relative;
+	// margin-top: 60px;
+	
+	&:after {
+		content: "";
+		display: block;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		height: 11px;
+		.bg-image ( transparent, url('../img/head_wave.png'), repeat-x, 0px, 0px);	
+	}
+}
+
+.header_title_1 {
+	color: #FFF;
+	font-size: 56px;
+	font-family: 'Uni Sans';
+	font-weight: 900;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.header_title_2 {
+	color: @orange;
+	font-size: 42px;
+    font-weight: 500;
+	margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.header_title_3 {
+	color: #FFF;
+	font-size: 22px;
+    font-weight: 500;
+	margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.header_button {
+  .button_big;
+	color: @orange;
+	text-decoration: none;
+
+	&:hover, &:focus {
+		color: #000;
+		background-color: @orange;
+		text-decoration: none;
+	}
+
+}//.header_button
